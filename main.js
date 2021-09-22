@@ -1,16 +1,12 @@
-let removeItem = document.querySelector('li')
-removeItem.remove();
+document.querySelector('li').remove()
 
-removeItem = document.querySelector('span')
-removeItem.remove();
 
-removeItem = document.querySelector('main .posts article');
-removeItem.remove();
+document.querySelector('span').remove()
 
-removeItem = document.querySelectorAll('main .posts h3');
 
-removeItem.forEach( item => {
-    item.remove();
+document.querySelector('main .posts article').remove()
 
-})
+
+document.querySelectorAll('main .posts h3').forEach(item => item.remove())
+
 
