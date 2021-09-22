@@ -1,11 +1,7 @@
-const removeItem = document.querySelector('li')
-removeItem.remove()
+document.querySelector('li').remove()
 
-const removeSpan = document.querySelector('span')
-removeSpan.remove()
+document.querySelector('span').remove()
 
-const removePost = document.querySelector('main .posts article')
-removePost.remove()
+document.querySelector('main .posts article').remove()
 
-const removeH3 = document.querySelectorAll('main .posts h3')
-removeH3.forEach((title) => title.remove())
+document.querySelectorAll('main .posts h3').forEach((title) => title.remove())
