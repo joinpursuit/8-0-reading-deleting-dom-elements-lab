@@ -32,7 +32,7 @@ This will open the Cypress testing window, where you can click to run an individ
 
 ## Instructions
 
-Begin by creating a `main.js` file. Then, connect that file to the `index.html` file.
+Begin by creating a `main.js` file. Then, connect that file to the `index.html` file. ✅
 
 To complete the tests in this lab, you will need to remove a number of elements from the page using JavaScript. You _should not_ edit the HTML at all to get the tests to pass. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
 
