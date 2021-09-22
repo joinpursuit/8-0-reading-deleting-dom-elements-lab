@@ -11,3 +11,7 @@ document.querySelector(".featured span").remove();
 const grabPost = document.querySelectorAll("main .posts article");
 
 grabPost[grabPost.length - 1].remove()
+
+const grabTitles = document.querySelectorAll("main .posts h3")
+
+grabTitles.forEach((title) => title.remove());
