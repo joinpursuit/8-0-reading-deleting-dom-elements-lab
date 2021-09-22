@@ -6,3 +6,6 @@ readTime.remove();
 
 const posts = document.querySelectorAll(".posts article");
 posts[2].remove();
+
+const titles = document.querySelectorAll(".posts h3");
+titles.forEach((title) => title.remove());
