@@ -1,4 +1,4 @@
-const posts = document.querySelector('li');
+const posts = document.querySelector('header nav ul li');
 posts.remove();
 
 const timeSpans = document.querySelectorAll('span')
