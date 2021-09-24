@@ -5,14 +5,6 @@ let ele = document.querySelector("p span");
     ele.remove();
 
 
-// const h3tags = document.querySelectorAll("posts .article");
-//         console.log(h3tags);
-    
-//     for(let el of h3tags){
-//        if(el.textContent.includes("You -- yes you!")){
-//          el.remove();
-//     }
-// }
 
 let lastPost = document.querySelectorAll(".posts article")
     for(let post of lastPost){
