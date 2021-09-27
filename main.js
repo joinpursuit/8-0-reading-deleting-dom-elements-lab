@@ -15,5 +15,7 @@ let element = document.querySelectorAll(".featured h2, .posts h3")
     for(let i = 0;i < element.length; i++) {
         element[0].remove(), element[1].remove(), element[2].remove();        
 }
+
+// need to find better way to slect mulitple indexes at the same time
     
 
