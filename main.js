@@ -8,3 +8,8 @@ let readTimeSpan = document.querySelector(".featured span");
 readTimeSpan.remove();
 ///////////Removes Read Time Span
 
+
+///////////Removes Last Post 
+let stopPlanningPost = document.querySelectorAll(".posts article");
+stopPlanningPost[2].remove();
+///////////Removes Last Post 
