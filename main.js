@@ -8,3 +8,7 @@ spanEle.remove();
 
 const articles = document.querySelectorAll("article");
 articles[articles.length - 1].remove();
+
+const allTitles = document.querySelectorAll("h3");
+
+allTitles.forEach((t) => t.remove());
