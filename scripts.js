@@ -5,5 +5,5 @@ document.querySelector(".featured aside p span").remove();
 // => Test-03: Removing last article on category posts
 document.querySelector(".posts article:last-child").remove();
 // => Test-04: Removing all titles on articles within category posts
-const headings = document.querySelectorAll(".posts h3");
-headings.forEach(title => {title.remove()})
+const allHeadings = document.querySelectorAll(".posts h3");
+allHeadings.forEach(title => {title.remove()})
