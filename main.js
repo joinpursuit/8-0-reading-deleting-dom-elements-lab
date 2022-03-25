@@ -13,4 +13,4 @@ const allTitles = document.querySelectorAll('.posts article h3');
 allTitles.forEach((title) => {
 	title.remove();
 });
-``
+``;
