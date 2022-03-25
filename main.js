@@ -1,13 +1,14 @@
-const li = document.querySelector("li");
+const allPostsLink = document.querySelector("li");
 
-li.remove();
+allPostsLink.remove();
 
-const spanEle = document.querySelector("span");
+const readTimeEle = document.querySelector("span");
 
-spanEle.remove();
+readTimeEle.remove();
 
-const articles = document.querySelectorAll("article");
-articles[articles.length - 1].remove();
+const allPosts = document.querySelectorAll("article");
+lastPost = allPosts[allPosts.length - 1];
+lastPost.remove();
 
 const allTitles = document.querySelectorAll("h3");
 
