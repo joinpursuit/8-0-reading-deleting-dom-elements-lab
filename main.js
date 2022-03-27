@@ -5,8 +5,8 @@ const readTime = document.querySelector(".featured span");
 readTime.remove();
 
 
-const hThreePosts = document.querySelector("main .posts article");
-hThreePosts.remove();
+const hThreePosts = document.querySelectorAll("article");
+hThreePosts[hThreePosts.length - 1].remove();
 
 const noTitle = document.querySelectorAll("main .posts h3");
 noTitle.forEach(i => {i.remove()})
