@@ -6,5 +6,8 @@ const articles = document.querySelectorAll('article');
 stopPlanning = articles[articles.length-1];
 stopPlanning.remove();
 
-document.querySelectorAll('.posts h3'.remove();
+const myPosts = document.querySelectorAll('.posts h3');
+myPosts.forEach(post=>{
+    post.remove();
+});
 
