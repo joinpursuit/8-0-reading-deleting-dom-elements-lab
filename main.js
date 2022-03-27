@@ -4,8 +4,8 @@ delheader.remove()
 const delSpan = document.querySelector('.featured span')
 delSpan.remove()
 
-const delPost = document.querySelector('main .posts article')
-delPost.remove()
+const delPost = document.querySelectorAll('main .posts article')
+delPost[delPost.length -1].remove()
 
 const delPosts = document.querySelectorAll('main .posts article h3')
 delPosts.forEach((title) => {
