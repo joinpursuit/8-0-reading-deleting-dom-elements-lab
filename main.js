@@ -8,7 +8,7 @@ readTime.remove()
 const lastPost = document.querySelector('.lastPost')
 lastPost.remove();
 
-const titles = document.querySelectorAll('.titles');
+const titles = document.querySelectorAll('.posts h3');
 
 titles.forEach(title=>{
     
