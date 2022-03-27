@@ -4,8 +4,8 @@ allDocuments.remove();
 const readTime = document.querySelector("aside span");
 readTime.remove();
 
-const lastPost = document.querySelector("main .posts article");
-lastPost.remove();
+const lastPost = document.querySelectorAll("article");
+lastPost[lastPost.length-1].remove();
 
 let allTitles = document.querySelectorAll(".posts article h3");
 for (let eachTitle of allTitles) {
