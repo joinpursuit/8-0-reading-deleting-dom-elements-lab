@@ -6,7 +6,8 @@ document.querySelector('li').remove();
 //const spanner = document.querySelector('span');
 //spanner.remove("Read Time");
 
-document.querySelector('span').remove();
+document.querySelector('article span').remove();
+
 
 //const eraseLastPost = document.querySelector('main .posts article');
 //eraseLastPost.remove("Stop Planning");
