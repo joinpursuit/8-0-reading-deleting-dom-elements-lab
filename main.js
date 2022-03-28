@@ -10,3 +10,7 @@ for (let art of article) {
   art.lastElementChild.remove();
 }
 
+let titles = document.querySelectorAll(".posts article h3");
+titles.forEach((title) => {
+  title.remove();
+});
