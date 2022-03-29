@@ -12,3 +12,4 @@ lastPost.remove();
 
 posts = document.querySelectorAll(".posts article h3");
 posts.forEach(e => e.remove());
+
