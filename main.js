@@ -9,5 +9,5 @@ removeSpan.remove()
 const removeArticle = document.querySelector('main .posts article')
 removeArticle.remove()
 
-// const removeAllTitle = document.querySelectorAll('main .posts h3')
-// removeAllTitle.remove()
+const removeAllTitle = document.querySelectorAll('main .posts h3')
+removeAllTitle.forEach(titles => titles.remove())
