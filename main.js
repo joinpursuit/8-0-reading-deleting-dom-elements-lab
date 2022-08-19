@@ -7,8 +7,9 @@ console.log(span.remove())
 const article = document.querySelector(`main .posts article`)
 console.log(article.remove())
 
- const title = document.querySelector(`main .posts h3`)
- console.log(title.remove())
+ const title = document.querySelectorAll(`h3`)
+ console.log(title)
 
- const titles = document.querySelector(`main .posts h3`)
- console.log(titles.remove())
+ title.forEach((titles) => {
+    console.log(titles.remove())
+ })
