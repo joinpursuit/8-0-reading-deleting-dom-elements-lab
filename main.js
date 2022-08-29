@@ -27,13 +27,16 @@ doggo.remove();
 //  }
 
 
-const helloq = document.querySelector('main .posts article');
-helloq.remove();
+const helloq = document.querySelectorAll('main .posts article');
+helloq[helloq.length-1].remove();
 
 
+const googale = document.querySelectorAll('main .posts h3');
+for(let i=0;i<googale.length;i++){
+    googale[i].remove();
 
-const googale = document.querySelector('main .posts h3');
-googale.remove();
+}
 
-const googale2 = document.querySelector('main .posts h3');
-googale2.remove();
+
+// const googale2 = document.querySelector('main .posts h3');
+// googale2.remove();
