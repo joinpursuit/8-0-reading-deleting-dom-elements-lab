@@ -8,3 +8,10 @@ document.querySelector("span").remove();
 const posts = document.querySelectorAll("article");
 //remove the last post
 posts[posts.length - 1].remove();
+
+//get the article titles
+let titles = document.querySelectorAll("h3");
+//remove each title
+titles.forEach(title => {
+    title.remove();
+});
