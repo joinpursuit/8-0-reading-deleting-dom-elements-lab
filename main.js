@@ -6,4 +6,4 @@ const articles = document.querySelectorAll('article')
 articles[articles.length-1].remove()
     
 const titles = document.querySelectorAll('h3')
-titles.forEach(a=>a.remove())
+titles.forEach(title=>title.remove())
