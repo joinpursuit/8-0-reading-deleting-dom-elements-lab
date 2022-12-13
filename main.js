@@ -2,7 +2,8 @@
 const  allPost = document.querySelector('li');
 allPost.remove();
 
-document.querySelector("span").remove();
+const  readTime = document.querySelector('span');
+readTime.remove();
 
 const  lastPost = document.querySelector('main .posts article');
 lastPost.remove();
