@@ -4,5 +4,11 @@ const allPost = document.querySelector("li"); allPost.remove()
  spanReadTime.remove()
 
 
+ const lastPost = document.querySelectorAll("article");
+ lastPost[lastPost.length-1].remove()
+
+
+
+
 
  
