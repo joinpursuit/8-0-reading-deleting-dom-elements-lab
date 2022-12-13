@@ -1,6 +1,6 @@
-let var1 = document.querySelector("li");
+let var1 = document.querySelector("header nav ul li");
 var1.remove();
-let var2 = document.querySelector("span");
+let var2 = document.querySelector(".featured article aside p span");
 var2.remove();
 // document.querySelector("main .posts article").remove(); => notify Raydelys of solution
 // document.querySelector([document.querySelector("article").length])
