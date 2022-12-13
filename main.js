@@ -1,0 +1,8 @@
+const file = document.querySelector('li')
+file.remove()
+const span = document.querySelector('span')
+span.remove()
+const lastPost = document.querySelectorAll('article')
+lastPost[lastPost.length-1].remove()
+const title = document.querySelectorAll('h3')
+title.forEach(element => element.remove())
