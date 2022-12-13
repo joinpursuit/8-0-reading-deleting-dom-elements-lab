@@ -3,15 +3,16 @@ const allPosts = document.querySelector('li');
 allPosts.remove();
 
 //Remove the span element that contains the "Read Time" in the featured post. The featured post is the first post on the page.
-const spanTime = document.querySelector(".featured span");
+const spanTime = document.querySelector("span");
 spanTime.remove();
 
 // Remove the last post from the page, titled "Stop Planning".
-const stopPlanning = document.querySelectorAll(".posts article"); 
-stopPlanning[stopPlanning.length-1].remove();
+const stopPlanning = document.querySelector("main .posts article"); 
+stopPlanning.remove();
+
 
 //Remove all titles from all non-featured posts.
-const nonFeatured = document.querySelectorAll('.posts h3');
-for (let title of nonFeatured){
+const nonFeatured = document.querySelectorAll('h3');
+nonFeatured.forEach((title) => {
     title.remove();
-}
+});
