@@ -6,6 +6,7 @@ Use this travel blog website to practice reading and deleting elements from the 
 
 ## Lab Setup
 
+   
 ### Getting started
 
 1. Fork and clone this repository.
