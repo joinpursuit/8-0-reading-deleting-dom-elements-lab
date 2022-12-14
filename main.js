@@ -1,11 +1,13 @@
-document.querySelector("header nav ul li").remove()
+const allPosts = document.querySelector(`li`);
+allPosts.remove();
 
-document.querySelector(".featured span").remove()
+const span = document.querySelector(`span`);
+span.remove();
 
-let allArticles = document.querySelectorAll("main .posts article")
-allArticles[allArticles.length -1].remove()
+const lastPost = document.querySelector(`h3`);
+lastPost.remove();
 
-let elementTitles = document.querySelectorAll("main .posts h3")
-for(let title of elementTitles) {
-    title.remove()
-}
+const allTitles = document.querySelectorAll('.posts article');
+allTitles.forEach(element => {
+    element.remove()
+});
