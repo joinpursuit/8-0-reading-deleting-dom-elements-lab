@@ -1,4 +1,3 @@
-const post = document.querySelector("li").textContent
-console.log(post)
+const post = document.querySelector("li")
 post.remove();
 
