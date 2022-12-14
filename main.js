@@ -14,5 +14,6 @@
 
 
  // window.alert("hello, what's ur name"); -> alert a message as soon as the screen loads
-
  // console.log("hello again")
+ //  const userSubmittedName = window.prompt("Enter your name");
+ //  window.alert(`Hello ${userSubmittedName}!  Thank you for your response.`);
