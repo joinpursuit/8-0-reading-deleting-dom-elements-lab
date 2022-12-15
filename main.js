@@ -1,12 +1,18 @@
-const listedLinks = document.querySelectorAll('li')
-for (let listedLink of listedLinks) {
-    listedLinks[0].remove()
-}
+const listedLinks = document.querySelector('li')
 
-const reads = document.querySelectorAll('span')
-for (let read of reads) {
-    read.remove()
-}
+    // console.log(listedLinks)
+    listedLinks.remove()
+
+
+const reads = document.querySelectorAll("span")
+
+    // console.log(reads)
+    reads[0].remove()
+
+
+// const reads = document.querySelectorAll('span')
+// console.log(span)
+
 
 const titles = document.querySelectorAll('h3')
 for (let title of titles) {
