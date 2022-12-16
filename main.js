@@ -7,9 +7,8 @@ const spanTime = document.querySelector("span");
 spanTime.remove();
 
 // Remove the last post from the page, titled "Stop Planning".
-const stopPlanning = document.querySelector("main .posts article"); 
-stopPlanning.remove();
-
+const stopPlanning = document.querySelectorAll(".posts article"); 
+stopPlanning[stopPlanning.length-1].remove();
 
 //Remove all titles from all non-featured posts.
 const nonFeatured = document.querySelectorAll('h3');
